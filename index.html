@@ -20,41 +20,6 @@
 
   <!-- jQuery 3.3.1 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Google Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
-    ga('create', 'UA-110408371-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <!-- End Google Analytics -->
-  <!-- Facebook Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window,document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2257813037775214'); 
-    fbq('track', 'PageView');
-  </script>
-  <noscript>
-    <img height="1" width="1" 
-    src="https://www.facebook.com/tr?id=2257813037775214&ev=PageView
-    &noscript=1"/>
-  </noscript>
-  <!-- End Facebook Pixel Code -->
-
-  <!-- Begin of Crisp Chat code -->
-  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="3d1e706a-775c-46e0-a0a1-5f300db0f047";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
-  <!-- End of Crisp Chat code -->
 </head>
 
 <body>
@@ -73,7 +38,7 @@
       <nav class="link-container">
         <a href="#about" class="nav-button">About</a>
         <a href="#work" class="nav-button">Our Work</a>
-        <a href="#contact" class="nav-button">Contact</a>
+        <a href="mailto:hello@bitcraft.io" class="nav-button">Contact</a>
       </nav>
     </div>
 
@@ -148,31 +113,7 @@
     <div id="contact" class="contact-us">
         <div class="contact-us-container">
           <div class="contact-us-title">Contact us</div>
-          <form id="contact-us-form" action="#">
-            <div class="contact-us-same-line-group">
-              <div class="contact-us-group">
-                <label for="contact-us-name">Your name *</label>
-                <input class="contact-us-input" type="text" id="contact-us-name" placeholder="Satoshi Nakamoto" required>
-              </div>
-              <div class="contact-us-group">
-                <label for="contact-us-email">Your email *</label>
-                <input class="contact-us-input" type="email" id="contact-us-email" placeholder="satoshi@amazingcompany.com" required>
-              </div>
-            </div>
-            <div class="contact-us-group">
-              <label for="contact-us-subject">Subject *</label>
-              <input class="contact-us-input" type="text" id="contact-us-subject" placeholder="Facebook on the blockchain" required>
-            </div>
-            <div class="contact-us-group">
-              <label for="contact-us-message">Your message *</label>
-              <textarea class="contact-us-input contact-us-textarea" id="contact-us-message" placeholder="Can you help me make the next biggest thing ever? I'm thinking of..." required></textarea>
-            </div>
-            <div class="contact-us-group">
-              <input id="contact-us-submit" type="submit" value="Send">
-              <div id="contact-us-loader" class="loader hidden"><div></div><div></div></div>
-              <div id="contact-us-response" class="hidden"></div>
-            </div>
-          </form>
+          Drop us a line at <a href="mailto:hello@bitcraft.io">hello@bitcraft.io</a>.
         </div>
       </div>
 
